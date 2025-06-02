@@ -31,4 +31,3 @@ class Produto(models.Model):
     categoriaid = models.ForeignKey(Categoria, on_delete=models.DO_NOTHING)
 
 
-
